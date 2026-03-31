@@ -1,0 +1,4 @@
+2026-03-31 11:37:57.532 ERROR [http-nio-8080-exec-3] c.p.s.s.BusinessChatAgentService - Groq agent plan failed: I/O error on POST request for "https://api.groq.com/openai/v1/chat/completions": api.groq.com
+2026-03-31 11:37:57.539 ERROR [http-nio-8080-exec-3] c.p.s.s.BusinessChatAgentService - Final response generation failed: I/O error on POST request for "https://api.groq.com/openai/v1/chat/completions": api.groq.com
+2026-03-31 11:38:15.138 ERROR [http-nio-8080-exec-8] c.p.system.service.AIInsightsService - Groq API failed: I/O error on POST request for "https://api.groq.com/openai/v1/chat/completions": api.groq.com — falling back to rule-based
+2026-03-31 11:38:15.300 ERROR [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Groq API failed: I/O error on POST request for "https://api.groq.com/openai/v1/chat/completions": api.groq.com — falling back to rule-based

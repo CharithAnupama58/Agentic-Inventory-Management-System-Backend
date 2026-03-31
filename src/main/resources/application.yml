@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pos_db
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc.batch_size: 20
+        order_inserts: true
+        order_updates: true
+
+  cache:
+    type: simple
+
+application:
+  security:
+    jwt:
+      secret-key: ${JWT_SECRET:404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970}
+      expiration: 604800000
+
+# ── AI Config — set real keys in environment variables ───────────────────────
+ai:
+  provider: ${AI_PROVIDER:groq}
+  groq:
+    api:
+      key: ${GROQ_API_KEY:}
+      url: "https://api.groq.com/openai/v1/chat/completions"
+  gemini:
+    api:
+      key: ${GEMINI_API_KEY:}
+      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-04-17:generateContent"
+
+pagination:
+  default-page-size: 20
+  max-page-size: 100
