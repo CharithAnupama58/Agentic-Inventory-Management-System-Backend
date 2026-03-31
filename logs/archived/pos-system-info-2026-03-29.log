@@ -1,0 +1,160 @@
+2026-03-29 17:34:07.739 INFO  [main] com.pos.system.PosSystemApplication - Starting PosSystemApplication using Java 21.0.1 with PID 34876 (F:\Smart Inventory Management System-Backend\pos-system\target\classes started by DELL in F:\Smart Inventory Management System-Backend\pos-system)
+2026-03-29 17:34:07.742 INFO  [main] com.pos.system.PosSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 17:34:31.551 INFO  [main] com.pos.system.PosSystemApplication - Started PosSystemApplication in 25.488 seconds (process running for 27.679)
+2026-03-29 17:37:01.715 INFO  [main] com.pos.system.PosSystemApplication - Starting PosSystemApplication using Java 21.0.1 with PID 25616 (F:\Smart Inventory Management System-Backend\pos-system\target\classes started by DELL in F:\Smart Inventory Management System-Backend\pos-system)
+2026-03-29 17:37:01.727 INFO  [main] com.pos.system.PosSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 17:37:26.977 INFO  [main] com.pos.system.PosSystemApplication - Started PosSystemApplication in 26.668 seconds (process running for 27.219)
+2026-03-29 17:39:33.005 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:39:40.634 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:39:40.701 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (10618ms)
+2026-03-29 17:40:03.613 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:40:03.751 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:40:03.752 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (141ms)
+2026-03-29 17:40:06.712 INFO  [http-nio-8080-exec-6] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:40:08.235 INFO  [http-nio-8080-exec-6] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:40:08.237 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (1677ms)
+2026-03-29 17:40:13.050 INFO  [http-nio-8080-exec-10] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:40:13.245 INFO  [http-nio-8080-exec-10] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:40:13.247 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (199ms)
+2026-03-29 17:40:15.654 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:40:15.842 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:40:15.843 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (192ms)
+2026-03-29 17:40:19.759 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:40:20.093 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:40:20.095 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (341ms)
+2026-03-29 17:41:16.599 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:41:16.811 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:41:16.822 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (248ms)
+2026-03-29 17:44:29.240 INFO  [http-nio-8080-exec-2] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:44:29.542 INFO  [http-nio-8080-exec-2] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:44:29.558 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (375ms)
+2026-03-29 17:44:35.652 INFO  [http-nio-8080-exec-8] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:44:35.770 INFO  [http-nio-8080-exec-8] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:44:35.771 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (122ms)
+2026-03-29 17:44:40.993 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:44:41.187 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:44:41.188 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (199ms)
+2026-03-29 17:47:04.378 INFO  [http-nio-8080-exec-10] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:47:05.322 INFO  [http-nio-8080-exec-10] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:47:05.343 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (1444ms)
+2026-03-29 17:47:48.267 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:47:49.831 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:47:49.843 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (2190ms)
+2026-03-29 17:56:00.305 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:56:01.960 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:56:02.141 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (2273ms)
+2026-03-29 17:59:34.038 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:59:34.462 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:59:34.480 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (596ms)
+2026-03-29 17:59:41.919 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:59:42.213 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:59:42.214 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (337ms)
+2026-03-29 17:59:45.466 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:59:45.736 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:59:45.737 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (276ms)
+2026-03-29 17:59:47.118 INFO  [http-nio-8080-exec-2] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:59:47.344 INFO  [http-nio-8080-exec-2] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:59:47.347 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (232ms)
+2026-03-29 17:59:55.323 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 17:59:55.538 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 17:59:55.539 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (219ms)
+2026-03-29 17:59:59.926 INFO  [http-nio-8080-exec-6] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:00:00.077 INFO  [http-nio-8080-exec-6] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:00:00.079 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (155ms)
+2026-03-29 18:00:02.209 INFO  [http-nio-8080-exec-8] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:00:02.366 INFO  [http-nio-8080-exec-8] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:00:02.367 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (161ms)
+2026-03-29 18:03:47.212 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:03:47.523 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:03:47.533 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (388ms)
+2026-03-29 18:03:50.432 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:03:50.601 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:03:50.603 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (183ms)
+2026-03-29 18:03:55.312 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:03:55.513 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:03:55.513 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (204ms)
+2026-03-29 18:04:10.355 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:04:10.629 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:04:10.631 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (278ms)
+2026-03-29 18:04:13.434 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:04:13.660 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:04:13.661 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (230ms)
+2026-03-29 18:04:16.049 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:04:16.244 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:04:16.259 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (210ms)
+2026-03-29 18:04:18.577 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:04:18.801 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:04:18.803 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (230ms)
+2026-03-29 18:06:22.141 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:06:23.031 INFO  [http-nio-8080-exec-1] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:06:23.089 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (1166ms)
+2026-03-29 18:19:21.891 INFO  [main] com.pos.system.PosSystemApplication - Starting PosSystemApplication using Java 21.0.1 with PID 33708 (F:\Smart Inventory Management System-Backend\pos-system\target\classes started by DELL in F:\Smart Inventory Management System-Backend\pos-system)
+2026-03-29 18:19:21.894 INFO  [main] com.pos.system.PosSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 18:19:31.352 INFO  [main] com.pos.system.PosSystemApplication - Started PosSystemApplication in 10.266 seconds (process running for 10.674)
+2026-03-29 18:21:05.985 INFO  [http-nio-8080-exec-2] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:21:07.751 INFO  [http-nio-8080-exec-2] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:21:07.846 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (3094ms)
+2026-03-29 18:21:33.529 INFO  [http-nio-8080-exec-8] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:21:33.715 INFO  [http-nio-8080-exec-8] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:21:33.722 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (221ms)
+2026-03-29 18:27:30.294 INFO  [main] com.pos.system.PosSystemApplication - Starting PosSystemApplication using Java 21.0.1 with PID 24280 (F:\Smart Inventory Management System-Backend\pos-system\target\classes started by DELL in F:\Smart Inventory Management System-Backend\pos-system)
+2026-03-29 18:27:30.295 INFO  [main] com.pos.system.PosSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 18:27:38.297 INFO  [main] com.pos.system.PosSystemApplication - Started PosSystemApplication in 8.638 seconds (process running for 9.031)
+2026-03-29 18:28:21.624 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:28:22.960 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:28:23.182 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (3417ms)
+2026-03-29 18:28:26.403 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (2142ms)
+2026-03-29 18:28:26.504 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (55ms)
+2026-03-29 18:28:37.647 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (93ms)
+2026-03-29 18:28:37.707 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (34ms)
+2026-03-29 18:28:41.209 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (79ms)
+2026-03-29 18:28:41.256 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (29ms)
+2026-03-29 18:28:44.059 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales → 200 (367ms)
+2026-03-29 18:28:44.399 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales → 200 (317ms)
+2026-03-29 18:28:45.500 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (32ms)
+2026-03-29 18:28:45.536 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (18ms)
+2026-03-29 18:28:46.220 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (750ms)
+2026-03-29 18:28:46.470 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (235ms)
+2026-03-29 18:28:50.522 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (259ms)
+2026-03-29 18:28:50.628 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (90ms)
+2026-03-29 18:28:55.745 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (12ms)
+2026-03-29 18:28:55.765 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (5ms)
+2026-03-29 18:30:03.795 INFO  [http-nio-8080-exec-7] com.pos.system.service.UserService - Creating user 'Sumanapala20@testshop.com' with role CASHIER — tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:30:03.991 INFO  [http-nio-8080-exec-7] com.pos.system.service.UserService - User created — id: 87dd2f91-b895-4277-a812-f2c9e505f81e, email: Sumanapala20@testshop.com, role: CASHIER
+2026-03-29 18:30:04.016 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP POST /api/users → 201 (407ms)
+2026-03-29 18:30:04.070 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (14ms)
+2026-03-29 18:30:32.233 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login attempt for email: Sumanapala20@testshop.com
+2026-03-29 18:30:32.446 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login successful — user: 87dd2f91-b895-4277-a812-f2c9e505f81e, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:30:32.448 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (219ms)
+2026-03-29 18:30:32.604 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (118ms)
+2026-03-29 18:30:32.630 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (8ms)
+2026-03-29 18:30:38.859 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (17ms)
+2026-03-29 18:30:38.882 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (10ms)
+2026-03-29 18:30:40.462 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (16ms)
+2026-03-29 18:30:40.496 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (17ms)
+2026-03-29 18:30:41.737 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales → 200 (158ms)
+2026-03-29 18:30:41.913 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales → 200 (157ms)
+2026-03-29 18:30:42.648 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (24ms)
+2026-03-29 18:30:42.696 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (30ms)
+2026-03-29 18:30:43.306 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (633ms)
+2026-03-29 18:30:44.044 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (696ms)
+2026-03-29 18:30:47.469 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-29 18:30:47.757 INFO  [http-nio-8080-exec-3] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:30:47.759 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (291ms)
+2026-03-29 18:30:47.852 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (23ms)
+2026-03-29 18:30:47.893 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (14ms)
+2026-03-29 18:30:49.489 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (5ms)
+2026-03-29 18:30:49.509 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (3ms)
+2026-03-29 18:31:13.894 INFO  [http-nio-8080-exec-3] com.pos.system.service.UserService - Creating user 'Kamal20@testshop.com' with role MANAGER — tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:31:14.032 INFO  [http-nio-8080-exec-3] com.pos.system.service.UserService - User created — id: a9030b66-80c3-4a2e-9d7b-adddfd61454f, email: Kamal20@testshop.com, role: MANAGER
+2026-03-29 18:31:14.047 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/users → 201 (156ms)
+2026-03-29 18:31:14.072 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (4ms)
+2026-03-29 18:31:33.200 INFO  [http-nio-8080-exec-7] com.pos.system.service.AuthService - Login attempt for email: Kamal20@testshop.com
+2026-03-29 18:31:33.419 INFO  [http-nio-8080-exec-7] com.pos.system.service.AuthService - Login successful — user: a9030b66-80c3-4a2e-9d7b-adddfd61454f, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-29 18:31:33.422 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (225ms)
+2026-03-29 18:31:33.484 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (24ms)
+2026-03-29 18:31:33.509 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (8ms)
+2026-03-29 18:31:37.295 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (121ms)
+2026-03-29 18:31:37.408 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (99ms)
+2026-03-29 18:31:42.284 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (9ms)
+2026-03-29 18:31:42.312 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (7ms)

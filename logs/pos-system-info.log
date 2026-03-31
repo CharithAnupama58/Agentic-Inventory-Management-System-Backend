@@ -1,0 +1,264 @@
+2026-03-31 08:23:29.414 INFO  [main] com.pos.system.PosSystemApplication - Starting PosSystemApplication using Java 21.0.1 with PID 24604 (F:\Smart Inventory Management System-Backend\pos-system\target\classes started by DELL in F:\Smart Inventory Management System-Backend\pos-system)
+2026-03-31 08:23:29.427 INFO  [main] com.pos.system.PosSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-31 08:23:38.031 INFO  [main] com.pos.system.PosSystemApplication - Started PosSystemApplication in 9.27 seconds (process running for 9.647)
+2026-03-31 08:24:28.765 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (361ms)
+2026-03-31 08:24:28.830 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (37ms)
+2026-03-31 08:24:35.330 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (21ms)
+2026-03-31 08:24:35.370 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (14ms)
+2026-03-31 08:24:36.415 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (1078ms)
+2026-03-31 08:24:37.029 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (566ms)
+2026-03-31 08:25:09.615 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (761ms)
+2026-03-31 08:25:09.746 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (42ms)
+2026-03-31 08:25:10.911 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (1183ms)
+2026-03-31 08:25:17.911 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (1389ms)
+2026-03-31 08:25:17.983 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (53ms)
+2026-03-31 08:25:20.960 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (57ms)
+2026-03-31 08:25:21.412 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (17ms)
+2026-03-31 08:25:23.032 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (13ms)
+2026-03-31 08:25:30.242 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (9ms)
+2026-03-31 08:25:30.274 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (12ms)
+2026-03-31 08:25:38.816 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (9ms)
+2026-03-31 08:25:38.845 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (8ms)
+2026-03-31 08:25:39.078 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (283ms)
+2026-03-31 08:25:39.280 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (184ms)
+2026-03-31 08:26:01.994 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (345ms)
+2026-03-31 08:26:02.085 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (47ms)
+2026-03-31 08:26:02.326 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (251ms)
+2026-03-31 08:26:06.549 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (15ms)
+2026-03-31 08:26:06.591 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (11ms)
+2026-03-31 08:26:15.593 INFO  [http-nio-8080-exec-2] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:26:15.602 INFO  [http-nio-8080-exec-2] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:26:15.611 INFO  [http-nio-8080-exec-2] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:26:16.887 INFO  [http-nio-8080-exec-2] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:26:18.941 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (3353ms)
+2026-03-31 08:26:18.961 INFO  [http-nio-8080-exec-3] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:26:18.962 INFO  [http-nio-8080-exec-3] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:26:18.966 INFO  [http-nio-8080-exec-3] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:26:19.840 INFO  [http-nio-8080-exec-3] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:26:20.482 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (1521ms)
+2026-03-31 08:26:52.152 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (11ms)
+2026-03-31 08:26:52.169 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (5ms)
+2026-03-31 08:26:52.384 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (241ms)
+2026-03-31 08:26:52.615 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (215ms)
+2026-03-31 08:27:10.152 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (356ms)
+2026-03-31 08:27:10.292 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (126ms)
+2026-03-31 08:27:35.001 INFO  [http-nio-8080-exec-10] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:27:35.093 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:27:36.417 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:27:36.438 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:27:36.458 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1459ms)
+2026-03-31 08:27:36.471 INFO  [http-nio-8080-exec-2] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:27:36.500 INFO  [http-nio-8080-exec-2] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:27:37.678 INFO  [http-nio-8080-exec-2] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:27:37.680 INFO  [http-nio-8080-exec-2] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:27:37.684 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1214ms)
+2026-03-31 08:27:59.884 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (640ms)
+2026-03-31 08:27:59.985 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (68ms)
+2026-03-31 08:28:18.095 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (8ms)
+2026-03-31 08:28:18.117 INFO  [http-nio-8080-exec-10] c.p.s.s.BusinessChatAgentService - Chat request: Which products are running low on stock?
+2026-03-31 08:28:20.263 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP POST /api/chat → 200 (2176ms)
+2026-03-31 08:28:20.308 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (5ms)
+2026-03-31 08:28:51.855 INFO  [http-nio-8080-exec-8] c.p.s.s.BusinessChatAgentService - Chat request: Slow moving products
+2026-03-31 08:28:51.865 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (10ms)
+2026-03-31 08:28:53.341 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP POST /api/chat → 200 (1488ms)
+2026-03-31 08:28:53.389 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (7ms)
+2026-03-31 08:29:15.929 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (9ms)
+2026-03-31 08:29:15.951 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (6ms)
+2026-03-31 08:29:41.193 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (103ms)
+2026-03-31 08:29:41.219 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (10ms)
+2026-03-31 08:29:43.990 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (44ms)
+2026-03-31 08:29:44.451 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (28ms)
+2026-03-31 08:29:44.928 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (15ms)
+2026-03-31 08:29:47.021 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (14ms)
+2026-03-31 08:29:47.983 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (13ms)
+2026-03-31 08:29:51.959 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (9ms)
+2026-03-31 08:29:52.481 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products/paged → 200 (12ms)
+2026-03-31 08:30:06.488 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (22ms)
+2026-03-31 08:30:06.536 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (19ms)
+2026-03-31 08:30:13.668 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000060 → 200 (251ms)
+2026-03-31 08:30:41.220 INFO  [http-nio-8080-exec-7] com.pos.system.service.SaleService - Campaign 'Slow Movers Sale' applied to 'Nutella 400g': $7.00 → $6.30
+2026-03-31 08:30:41.638 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP POST /api/sales → 201 (833ms)
+2026-03-31 08:30:41.667 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (9ms)
+2026-03-31 08:30:52.278 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000014 → 200 (10ms)
+2026-03-31 08:30:54.460 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000007 → 204 (7ms)
+2026-03-31 08:31:02.004 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000018 → 200 (22ms)
+2026-03-31 08:31:09.128 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000020 → 200 (10ms)
+2026-03-31 08:31:19.560 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000032 → 204 (9ms)
+2026-03-31 08:31:39.557 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP POST /api/sales → 201 (66ms)
+2026-03-31 08:31:39.585 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (11ms)
+2026-03-31 08:36:12.974 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (116ms)
+2026-03-31 08:36:26.689 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000023 → 204 (136ms)
+2026-03-31 08:36:43.384 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP POST /api/sales → 201 (1988ms)
+2026-03-31 08:36:43.652 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (75ms)
+2026-03-31 08:37:02.172 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000021 → 204 (14ms)
+2026-03-31 08:37:12.570 INFO  [http-nio-8080-exec-7] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:37:12.572 INFO  [http-nio-8080-exec-7] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:37:12.579 INFO  [http-nio-8080-exec-7] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:37:13.771 INFO  [http-nio-8080-exec-7] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:37:14.936 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (2367ms)
+2026-03-31 08:37:14.974 INFO  [http-nio-8080-exec-8] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:37:14.974 INFO  [http-nio-8080-exec-8] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:37:14.979 INFO  [http-nio-8080-exec-8] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:37:16.365 INFO  [http-nio-8080-exec-8] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:37:17.193 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (2220ms)
+2026-03-31 08:37:26.779 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (216ms)
+2026-03-31 08:37:26.917 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (121ms)
+2026-03-31 08:37:31.129 INFO  [http-nio-8080-exec-4] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:37:31.234 INFO  [http-nio-8080-exec-4] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:37:32.656 INFO  [http-nio-8080-exec-4] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:37:32.662 INFO  [http-nio-8080-exec-4] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:37:32.665 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1537ms)
+2026-03-31 08:37:32.679 INFO  [http-nio-8080-exec-9] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:37:32.727 INFO  [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:37:34.039 INFO  [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:37:34.040 INFO  [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:37:34.041 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1363ms)
+2026-03-31 08:38:27.208 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (378ms)
+2026-03-31 08:38:27.315 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (93ms)
+2026-03-31 08:38:39.240 INFO  [http-nio-8080-exec-3] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:38:39.305 INFO  [http-nio-8080-exec-3] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:38:40.609 INFO  [http-nio-8080-exec-3] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:38:40.610 INFO  [http-nio-8080-exec-3] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:38:40.614 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1375ms)
+2026-03-31 08:38:40.723 INFO  [http-nio-8080-exec-10] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:38:40.777 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:38:42.010 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:38:42.012 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:38:42.013 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1294ms)
+2026-03-31 08:38:47.086 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (19ms)
+2026-03-31 08:38:47.105 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (4ms)
+2026-03-31 08:39:05.869 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (118ms)
+2026-03-31 08:39:05.897 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (9ms)
+2026-03-31 08:39:09.003 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/sales/campaign/eeee0001-0000-0000-0000-000000000009 → 204 (48ms)
+2026-03-31 08:39:45.243 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/sales → 201 (1565ms)
+2026-03-31 08:39:45.275 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (13ms)
+2026-03-31 08:40:07.029 INFO  [http-nio-8080-exec-6] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:40:07.182 INFO  [http-nio-8080-exec-6] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:40:08.293 INFO  [http-nio-8080-exec-6] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:40:08.297 INFO  [http-nio-8080-exec-6] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:40:08.302 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1274ms)
+2026-03-31 08:40:08.321 INFO  [http-nio-8080-exec-3] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:40:08.402 INFO  [http-nio-8080-exec-3] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:40:09.454 INFO  [http-nio-8080-exec-3] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:40:09.457 INFO  [http-nio-8080-exec-3] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:40:09.459 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1138ms)
+2026-03-31 08:40:29.222 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (7ms)
+2026-03-31 08:40:29.254 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (9ms)
+2026-03-31 08:40:29.565 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (350ms)
+2026-03-31 08:40:29.866 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (285ms)
+2026-03-31 08:40:52.390 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (27ms)
+2026-03-31 08:40:52.421 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (10ms)
+2026-03-31 08:40:52.789 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (380ms)
+2026-03-31 08:41:10.908 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (22ms)
+2026-03-31 08:41:10.944 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (10ms)
+2026-03-31 08:41:11.187 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (253ms)
+2026-03-31 08:41:29.107 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (20ms)
+2026-03-31 08:41:29.142 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (11ms)
+2026-03-31 08:41:29.449 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (322ms)
+2026-03-31 08:41:47.596 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (26ms)
+2026-03-31 08:41:47.630 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (7ms)
+2026-03-31 08:41:47.855 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (236ms)
+2026-03-31 08:41:52.104 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (241ms)
+2026-03-31 08:41:52.267 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (140ms)
+2026-03-31 08:42:22.020 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/analytics → 200 (108ms)
+2026-03-31 08:42:23.399 INFO  [http-nio-8080-exec-5] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:42:23.401 INFO  [http-nio-8080-exec-5] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:42:23.406 INFO  [http-nio-8080-exec-5] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:42:24.547 INFO  [http-nio-8080-exec-5] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:42:25.358 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (1960ms)
+2026-03-31 08:42:25.373 INFO  [http-nio-8080-exec-2] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:42:25.373 INFO  [http-nio-8080-exec-2] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:42:25.377 INFO  [http-nio-8080-exec-2] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:42:25.878 INFO  [http-nio-8080-exec-2] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:42:26.473 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (1101ms)
+2026-03-31 08:42:41.168 INFO  [http-nio-8080-exec-10] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:42:41.230 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:42:42.295 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:42:42.304 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:42:42.308 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1142ms)
+2026-03-31 08:42:42.324 INFO  [http-nio-8080-exec-8] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:42:42.391 INFO  [http-nio-8080-exec-8] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:42:44.503 INFO  [http-nio-8080-exec-8] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:42:44.509 INFO  [http-nio-8080-exec-8] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 1 alerts, 3 recommendations
+2026-03-31 08:42:44.511 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (2187ms)
+2026-03-31 08:43:18.627 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (18ms)
+2026-03-31 08:43:18.655 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (7ms)
+2026-03-31 08:43:18.849 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (241ms)
+2026-03-31 08:43:19.187 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (315ms)
+2026-03-31 08:43:49.495 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP POST /api/inventory/adjust → 200 (176ms)
+2026-03-31 08:43:49.521 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/products → 200 (8ms)
+2026-03-31 08:43:49.789 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/inventory/summary → 200 (275ms)
+2026-03-31 08:43:53.228 INFO  [http-nio-8080-exec-7] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:43:53.355 INFO  [http-nio-8080-exec-7] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:43:54.594 INFO  [http-nio-8080-exec-7] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:43:54.602 INFO  [http-nio-8080-exec-7] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 0 alerts, 3 recommendations
+2026-03-31 08:43:54.606 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1379ms)
+2026-03-31 08:43:54.619 INFO  [http-nio-8080-exec-6] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:43:54.669 INFO  [http-nio-8080-exec-6] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:43:55.616 INFO  [http-nio-8080-exec-6] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:43:55.618 INFO  [http-nio-8080-exec-6] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 0 alerts, 3 recommendations
+2026-03-31 08:43:55.620 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1001ms)
+2026-03-31 08:44:18.360 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (32ms)
+2026-03-31 08:44:18.377 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (5ms)
+2026-03-31 08:44:38.579 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (9ms)
+2026-03-31 08:44:38.610 INFO  [http-nio-8080-exec-6] c.p.s.s.BusinessChatAgentService - Chat request: check stock levels
+2026-03-31 08:44:40.317 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP POST /api/chat → 200 (1746ms)
+2026-03-31 08:44:40.379 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (4ms)
+2026-03-31 08:45:23.388 INFO  [http-nio-8080-exec-2] c.p.s.s.BusinessChatAgentService - Chat request: Give me a complete business summary with key metrics
+2026-03-31 08:45:23.424 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (87ms)
+2026-03-31 08:45:25.286 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP POST /api/chat → 200 (1949ms)
+2026-03-31 08:45:25.359 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (9ms)
+2026-03-31 08:46:26.942 INFO  [http-nio-8080-exec-10] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:46:27.191 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:46:28.409 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:46:28.425 INFO  [http-nio-8080-exec-10] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 0 alerts, 3 recommendations
+2026-03-31 08:46:28.443 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1514ms)
+2026-03-31 08:46:28.461 INFO  [http-nio-8080-exec-9] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:46:28.511 INFO  [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:46:29.618 INFO  [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:46:29.621 INFO  [http-nio-8080-exec-9] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 0 alerts, 3 recommendations
+2026-03-31 08:46:29.623 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1162ms)
+2026-03-31 08:46:41.041 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: Sumanapala20@testshop.com
+2026-03-31 08:46:41.714 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login successful — user: 87dd2f91-b895-4277-a812-f2c9e505f81e, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:46:41.729 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (2639ms)
+2026-03-31 08:46:42.024 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (216ms)
+2026-03-31 08:46:42.108 INFO  [http-nio-8080-exec-3] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (30ms)
+2026-03-31 08:46:52.158 INFO  [http-nio-8080-exec-10] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:46:52.159 INFO  [http-nio-8080-exec-10] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:46:52.164 INFO  [http-nio-8080-exec-10] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:46:53.017 INFO  [http-nio-8080-exec-10] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:46:53.861 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (1705ms)
+2026-03-31 08:46:53.893 INFO  [http-nio-8080-exec-9] c.p.s.c.PredictionController - Inventory predictions requested
+2026-03-31 08:46:53.893 INFO  [http-nio-8080-exec-9] c.p.s.s.InventoryPredictionService - Generating inventory predictions for tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:46:53.898 INFO  [http-nio-8080-exec-9] c.p.s.s.PredictionEngineService - Building predictions for 101 products
+2026-03-31 08:46:55.534 INFO  [http-nio-8080-exec-9] c.p.s.s.InventoryPredictionService - Calling Groq for inventory analysis...
+2026-03-31 08:46:56.240 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP GET /api/predictions → 200 (2348ms)
+2026-03-31 08:47:24.079 INFO  [http-nio-8080-exec-4] com.pos.system.service.AuthService - Login attempt for email: admin20@myshop.com
+2026-03-31 08:47:31.987 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login attempt for email: Kamal20@testshop.com
+2026-03-31 08:47:32.176 INFO  [http-nio-8080-exec-5] com.pos.system.service.AuthService - Login successful — user: a9030b66-80c3-4a2e-9d7b-adddfd61454f, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:47:32.178 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (193ms)
+2026-03-31 08:47:32.269 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (34ms)
+2026-03-31 08:47:32.287 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (6ms)
+2026-03-31 08:48:32.395 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login attempt for email: admin20@testshop.com
+2026-03-31 08:48:32.631 INFO  [http-nio-8080-exec-9] com.pos.system.service.AuthService - Login successful — user: 63c519a4-76ae-4af0-a330-8a3be4e09eea, tenant: 3ddcdea0-76ce-49ad-a973-81facdc0eb10
+2026-03-31 08:48:32.639 INFO  [http-nio-8080-exec-9] c.p.s.config.RequestLoggingFilter - HTTP POST /api/auth/login → 200 (303ms)
+2026-03-31 08:48:32.857 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (121ms)
+2026-03-31 08:48:32.889 INFO  [http-nio-8080-exec-5] c.p.s.config.RequestLoggingFilter - HTTP GET /api/dashboard/summary → 200 (6ms)
+2026-03-31 08:48:37.528 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (87ms)
+2026-03-31 08:48:37.549 INFO  [http-nio-8080-exec-6] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (8ms)
+2026-03-31 08:48:42.583 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (7ms)
+2026-03-31 08:48:42.591 INFO  [http-nio-8080-exec-4] c.p.s.s.BusinessChatAgentService - Chat request: Analyze my reorder situation
+2026-03-31 08:48:44.018 INFO  [http-nio-8080-exec-4] c.p.s.config.RequestLoggingFilter - HTTP POST /api/chat → 200 (1444ms)
+2026-03-31 08:48:44.064 INFO  [http-nio-8080-exec-2] c.p.s.config.RequestLoggingFilter - HTTP GET /api/chat/campaigns → 200 (7ms)
+2026-03-31 08:48:53.227 INFO  [http-nio-8080-exec-1] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:48:54.277 INFO  [http-nio-8080-exec-1] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:48:55.392 INFO  [http-nio-8080-exec-1] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:48:55.414 INFO  [http-nio-8080-exec-1] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 0 alerts, 3 recommendations
+2026-03-31 08:48:55.483 INFO  [http-nio-8080-exec-1] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (2273ms)
+2026-03-31 08:48:55.541 INFO  [http-nio-8080-exec-7] c.p.s.controller.InsightsController - Insights requested
+2026-03-31 08:48:55.693 INFO  [http-nio-8080-exec-7] c.p.system.service.AIInsightsService - Calling Groq API with model: llama-3.3-70b-versatile
+2026-03-31 08:48:57.018 INFO  [http-nio-8080-exec-7] c.p.system.service.AIInsightsService - Groq response status: 200 OK
+2026-03-31 08:48:57.021 INFO  [http-nio-8080-exec-7] c.p.system.service.AIInsightsService - Groq insights parsed — 4 insights, 0 alerts, 3 recommendations
+2026-03-31 08:48:57.023 INFO  [http-nio-8080-exec-7] c.p.s.config.RequestLoggingFilter - HTTP GET /api/insights → 200 (1483ms)
+2026-03-31 08:49:03.932 INFO  [http-nio-8080-exec-10] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (146ms)
+2026-03-31 08:49:03.953 INFO  [http-nio-8080-exec-8] c.p.s.config.RequestLoggingFilter - HTTP GET /api/users → 200 (6ms)
